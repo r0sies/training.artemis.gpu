@@ -66,7 +66,7 @@ Hello GPU World!
 Hello GPU World!
 ```
 
-Another example, matrix multplication, and we can run it on CPU and GPU to get a becnhmark
+Another example, matrix multplication, and we can run it on CPU and GPU to get a benchmark.
 Okay now let's take it to Artemis.
 
 
