@@ -33,7 +33,7 @@ Read the ```gpu_demo_Mandelbrot.m``` script to see the details. For now, check o
 
 ### GPU-1 Using gpuArray
 
-The next example makes use of Matlab's ability to solve grided datasets using the GPU. The only diffference in the code is where the coordinates of the grid are initialised, the inbuilt Matlab command ```gpuArray``` is used to  store the data on the GPU, so any computation done on this arrray are automatically done via the GPU. It is a super simple way to potentially speed up some calculations.
+The next example makes use of Matlab's ability to solve gridded datasets using the GPU. The only diffference in the code is where the coordinates of the grid are initialised, the inbuilt Matlab command ```gpuArray``` is used to  store the data on the GPU, so any computation done on this arrray are automatically done via the GPU. It is a super simple way to potentially speed up some calculations.
 
 Check out **GPU.png** for the naive results.
 
@@ -45,7 +45,7 @@ Check out **GPU_array.png** for the results.
 
 ### GPU-3 Working with CUDA
 
-The last example is essentially writing straight C++ CUDA coda and compiling it with C-Mex (C-MatlabExecutable).  The code is precompiled for this example and the call to the function is made with the ```feval``` command.
+The last example is essentially writing straight C++ CUDA code and compiling it with C-Mex (C-MatlabExecutable).  The code is precompiled for this example and the call to the function is made with the ```feval``` command.
 
 If you have a CU file you want to execute on the GPU through Matlab, you must first compile it to create a PTX file. One way to do this is with the nvcc compiler in the NVIDIA CUDA Toolkit. In this example, the CU file is called ```pctdemo_processMandelbrotElement.cu```, you can create a compiled PTX file with the shell command:
 ```
