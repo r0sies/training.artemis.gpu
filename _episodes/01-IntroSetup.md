@@ -13,6 +13,15 @@ GPU or CPU
 
 Some workloads are great for GPUs others are not.
 
+Threads/Blocks/all that.
+
+## How do I get access to a GPU?
+
+Artemis/Argus/PC
+NCI
+Pawsey
+
+
 ### How do you develop code for GPU computing?
 
 The most common langauges for developing code for GPUs are
