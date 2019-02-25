@@ -4,17 +4,17 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Introduces GPU computing, and running GPU jobs on Artemis and other HPC systmes.
+**Synopsis:** Introduces GPU computing, and running GPU jobs on Artemis and other HPC systmes. The University of Sydney's Artemis HPC hosts several NVIDIA V100 GPUs. This course will help you to understand basic concepts of GPU programming. You will learn fundamentals of basic CUDA code, and write and run examples using C/CUDA, Matlab, and Python. You will undertake practical applications in Deep Learning using Python, Tensorflow, and Keras. You will learn how to set up suitable environemnts on Artemis for GPU-enabled applications to run, and how to run and submit jobs on the Artemis HPC GPU queue.
 
 **Target audience:** Students and staff who would like to learn how to use GPU enabled code, especially for Artemis HPC. Participants must have a valid USyd unikey.
 
 **Follow-on courses:** This course is **part** of the **[Artemis HPC Training Series]({{ site.series_home }})**.
 
-This first lesson is intended as part one of a pair, with ‘_Introduction to the Artemis HPC_’ in the morning and [‘_Data transfer and RDS for HPC_’]({{ site.sih_pages }}/training.artemis.rds) in the afternoon. It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
+This first lesson is intended as part one of a pair, with [‘_Introduction to the Artemis HPC_’]({{ site.sih_pages }}/training.artemis.introhpc) in the morning and [‘_Data transfer and RDS for HPC_’]({{ site.sih_pages }}/training.artemis.rds) in the afternoon. It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
 
-The third course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pages }}/{{ site.github.repository_name }}), extends users' knowledge of the PBS Pro scheduling system, and builds scripting skills for automating large workflows on HPC.
+Another course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pages }}/{{ site.github.repository_name }}), extends users' knowledge of the PBS Pro scheduling system, and builds scripting skills for automating large workflows on HPC.
 
-A specialised lesson, ['_Matlab on Artemis: The MDCS_']({{ site.sih_pages }}/training.artemis.mdcs), is an optional course for users of MATLAB who would like to submit jobs directly to the cluster from their local computers.
+A specialised lesson, ['_Matlab on Artemis: The MDCS_']({{ site.sih_pages }}/training.artemis.mdcs), is a course for users of MATLAB who would like to submit jobs directly to the cluster from their local computers.
 
 > ## Prerequisites
 > Competency on the Unix/Linux command line:
