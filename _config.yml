@@ -10,11 +10,11 @@ port: 4100
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
-carpentry: "si"
+carpentry: "sih"
 
 # Overall title for pages.
-title: "SIH Training template FIXME"
-series_name: "FIXME Series"
+title: "Introduction to GPU computing on HPC"
+series_name: "Artemis Series"
 
 # What kind of thing is this ("workshop" or "lesson" or "series")?
 kind: "lesson"
@@ -45,7 +45,7 @@ email: "sih.training@sydney.edu.au"
 sih_site: "https://informatics.sydney.edu.au"
 sih_github: "https://github.com/Sydney-Informatics-Hub"
 sih_pages: "https://sydney-informatics-hub.github.io"
-series_home: "https://sydney-informatics-hub.github.io/FIXME/"
+series_home: "https://sydney-informatics-hub.github.io/training.artemis/"
 training_home: "https://sydney-informatics-hub.github.io/training.home/"
 
 # Carpentries sites
