@@ -95,7 +95,7 @@ module load cuda/8.0.44
 Now, if you have tried to run it, you will find that you will get no output - that is because you are on a ***login node***, i.e. there is no GPU there. If you want to use a GPU you must run your code on a gpu node!
 There is one on the training node we are using today to speed things up. And there are several more you can access normally.
 
-Let's write a pbs script to get our code running, create a new file called '''hello.pbs'''
+Let's write a pbs script to get our code running, create a new file called ```hello.pbs```
 ```
 #! /bin/bash
 
