@@ -64,7 +64,7 @@ source /project/Training/GPUtraining/miniconda/bin/activate pyGPUk40
 #print out the version of tensorflow we are running
 python -c 'import tensorflow as tf; print(tf.__version__)'
 #Run the python script
-python ts_100k.py
+python timeseries.py
 ```
 
 And run the script with ```qsub runk40.pbs```. Then you can look for the output, in this case it trains a model and saves it as a *.hdf5 file. Plus it performs the prediction for us on this data. But you could train a model that takes a week on Artemis, save the model output to your local machine and do the small-scale stuff, like predicting on other datasets and retraining. The possibilites are endless!
