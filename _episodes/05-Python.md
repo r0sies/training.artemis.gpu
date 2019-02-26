@@ -6,22 +6,24 @@ Python offers many ways to make use of the compute capability in your GPU. A ver
 
 ### You can run through the steps on you local machine using the Jupyter notebook example
 
-Step through the process, we are looking at temperature data in Sydney for the last 150 years, wih daily measurements. And we want to predict what the future is going to look like.
+Open up ```timeseries.ipynb``` on your local machine. Feel free to step through the notebook. We are looking at temperature data in Sydney for the last 150 years with daily measurements. We want to predict what the future is going to look like. Note: the default values in the notebook restrict the length of dataset used in the analysis purely for time constraints. The batch mode version removes this restrition, but feel free to adjust the numbers as you like.
 
 ## Run the straight python script to do everything in "batch" mode. This is how we have to run it on Artmeis.
 
+Assuming the dataset, ```sydney_temperature.csv```, and python script, ```timeseries.py``` are in the same directory, to run in batch mode, simply envoke:
+```
 python timeseries.py
-
-This script saves the figure to a file and the model to a file also.
+```
+This script saves the figure to a file (instead of displaying it inline) and saves the model to a file also (for later use). The default looks at a much larger portion of the dataset than the Jupyter Notebook version defaults.
 
 ### Running on Artemis
 
 ## Set up the environment
 
-So far we have dealt with fairly well-behaved packages on Artmeis. There are ~~dozens~~ hundreds of maintained bits of software and libraries on Artemis. But there are thousands of users and often we need very particular versions and workflows, so keeping every combination of software centrally maintained is just not feasible. Instead, often we have to build our own programs from scratch (just how we built our helloworld example from source!). This is a useful skill to have when you move to other HPC facilities like our national collabraotive infastructure [NCI](http://nci.org.au/) and [Pawsey](https://pawsey.org.au/), where you will undoubtably have to set up your own environemnts to work in.
+So far we have dealt with fairly well-behaved packages on Artmeis. There are ~~dozens~~ hundreds of maintained bits of software and libraries on Artemis. But there are thousands of users and often we need very particular versions and workflows, so keeping every combination of software centrally maintained is just not feasible. Instead, often we have to build our own programs from scratch (just how we built our **helloworld** example from source!). This is a useful skill to have when you move to other HPC facilities like our national collabraotive infastructure [NCI](http://nci.org.au/) and [Pawsey](https://pawsey.org.au/), where you will undoubtably have to set up your own environemnts to work in.
 
 
-The first thing we need is a specifc python version. You can use the prebuilt environment with the command ```source /project/Training/GPUtraining/miniconda/bin/activate pyGPUk40``` - or follow these instructions to get it running in your own folder (which you will need to do when you are not using the training project). 
+The first thing we need is a specifc python version. You can use the prebuilt environment with the command ```source /project/Training/GPUtraining/miniconda/bin/activate pyGPUk40``` - or follow these instructions to get it running in your own folder (which you will need to do when you are not using the Training project). 
 
 ```
 cd /project/Training/GPUtraining/
