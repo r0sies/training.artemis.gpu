@@ -45,7 +45,7 @@ Check out **GPU_array.png** for the results.
 
 ### GPU-3 Working with CUDA
 
-The last example is essentially writing straight C++ CUDA code and compiling it with C-Mex (C-MatlabExecutable).  The code is precompiled for this example and the call to the function is made with the ```feval``` command.
+The last example is essentially writing straight C++ CUDA code and compiling it with C-Mex (C-MatlabExecutable).  The code is precompiled for this example and the call to the function is made with the ```feval``` command. But for the adventurous it can be compiled as follows.
 
 If you have a CU file you want to execute on the GPU through Matlab, you must first compile it to create a PTX file. One way to do this is with the nvcc compiler in the NVIDIA CUDA Toolkit. In this example, the CU file is called ```pctdemo_processMandelbrotElement.cu```, you can create a compiled PTX file with the shell command:
 ```
