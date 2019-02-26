@@ -92,10 +92,10 @@ The compiling method is the same, but we need to make sure we load the required 
 module load cuda/8.0.44
 ```
 
-Now, if you have tried to run it, you will find that you cannot - that is because you are on a ***login node***, i.e. there is not GPU there. If you want to use a GPU you must run your code on a gpu node!
+Now, if you have tried to run it, you will find that you will get no output - that is because you are on a ***login node***, i.e. there is no GPU there. If you want to use a GPU you must run your code on a gpu node!
 There is one on the training node we are using today to speed things up. And there are several more you can access normally.
 
-Let's write a pbs script to get our code running, creat a new file called '''hello.pbs'''
+Let's write a pbs script to get our code running, create a new file called '''hello.pbs'''
 ```
 #! /bin/bash
 
@@ -112,9 +112,14 @@ module load cuda/8.0.44
 ./hello_gpu
 
 ```
+And submit the jobscript to the queue with 
+```
+qsub hello.pbs
+```
+This submits your job to the Artemis queue with the resources you have requested. It then runs the commands in the script, so will eventually run our hello_gpu program. Wait a couple minutes for the code to run and complete (you can check your position in the queue with ```qstat```.)
 
-Now check the output in hwGPU.o???
-Is it what we expect! 
+Now when it has finished, check the output in hwGPU.o???
+Is it what we expect!? 
 You can have a look at the hwGPU.e??? file to see if any messages were sent to the error log. These can be warnings, or if somehitng has gone wrong (like if you make a typo and Artemis can't find the files you are expecting) then hopefully a useful message has appear in this log. 
 Finally, check out the hwGPU.o???_usage file for a detailed look at all the resources your code used.
 
