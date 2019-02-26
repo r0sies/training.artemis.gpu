@@ -69,7 +69,7 @@ Next connect to Artemis using your favourite method, navigate to where you copie
 ssh -X ict_hpctrain1@hpc.sydney.edu.au
 cd /project/Training/nathan
 cp /project/Training/nathan/hello.pbs to runMatlab.pbs
-nano matlab.pbs
+nano runMatlab.pbs
 ```
 
 Now update the PBS script we wrote before so it is appropriate for this example:
