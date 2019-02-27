@@ -11,6 +11,9 @@ This is the overview page for the Artemis training course series. The individual
 | [Introduction to GPU computing on the Artemis HPC](https://github.com/Sydney-Informatics-Hub/training.artemis.gpu) | Introduces GPU computing, and running GPU jobs on Artemis and other HPC systmes. We teach fundamentals of basic CUDA code, and write and run examples using C/CUDA, Matlab, and Python. You will undertake practical applications in Deep Learning using Python, Tensorflow, and Keras. You will learn how to set up suitable environemnts on Artemis for GPU-enabled applications to run, and how to run and submit jobs on the Artemis HPC GPU queue.|
 
 
+### Where to change things
+If you want to modify this training content, the files and folders you are interested in are: files ***index.md***,***setup.md***, and folders ***_episodes***,***data***,***fig***. Have fun!
+
 ### iii. Checking your work
 
 We welcome all contributions to improve our courses! Maintainers will do their best to help you if you have any
