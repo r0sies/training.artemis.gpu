@@ -21,7 +21,7 @@ The code shows examples that use a purely CPU approach, and then adaptations of 
 
 ### CPU
 
-This example evaluates the function ```$ f(z) = z^2 + z_0 $``` over a grid of values. In this version we are just using the CPU to loop through the function evaluation one-by-one in a typical serial execution.
+This example evaluates the function $f(z) = z^2 + z_0$ over a grid of values. In this version we are just using the CPU to loop through the function evaluation one-by-one in a typical serial execution.
 Read the ```gpu_demo_Mandelbrot.m``` script to see the details. For now, check out the solution: 
 
 <figure>
