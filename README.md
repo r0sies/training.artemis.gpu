@@ -12,7 +12,7 @@ This is the overview page for the Artemis training course series. The individual
 
 
 ### Where to change things
-If you want to modify this training content, the files and folders you are interested in are: files ***index.md***,***setup.md***, and folders ***_episodes***,***data***,***fig***. Have fun!
+If you want to modify this training content, the files and folders you are interested in are mostly: files ***index.md***, ***setup.md***, and folders ***_episodes***, ***data***, ***fig***. Have fun!
 
 ### iii. Checking your work
 
