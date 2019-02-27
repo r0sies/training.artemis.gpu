@@ -68,8 +68,8 @@ If you're on Windows, and followed the [Setup]({{ page.root }}/setup) guide, the
 If this is the first time connecting to Artemis, you will be asked to authorise it as a trusted **host** server; click 'Accept' (X-Win32) or 'Yes' (PuTTY).
 
 <figure>
-  <img src="{{ page.root }}/fig/03_xwinhosts.png" style="margin:10px;height:240px"/>
-  <img src="{{ page.root }}/fig/03_puttyhosts.png" style="margin:10px;height:250px"/>
+  <img src="fig/03_xwinhosts.png" style="margin:10px;height:240px"/>
+  <img src="fig/03_puttyhosts.png" style="margin:10px;height:250px"/>
   <figcaption> Unknown host challenges: X-Win32 (top), PuTTY (bottom) </figcaption>
 </figure><br>
 
