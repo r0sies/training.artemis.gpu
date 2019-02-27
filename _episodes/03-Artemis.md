@@ -78,13 +78,13 @@ If this is the first time connecting to Artemis, you will be asked to authorise 
 * If using 'PuTTY', a terminal window will appear and prompt you for your **username**, and then your **password**. Once entered, you should be logged on to Artemis! A command prompt on Artemis will appear in that window.
 
 <figure>
-  <img src="{{ page.root }}/fig/03_xwin.png" style="margin:10px;height:220px"/>
+  <img src="/fig/03_xwin.png" style="margin:10px;height:220px"/>
   <img src="{{ page.root }}/fig/03_putty.png" style="margin:10px;height:350px"/>
   <figcaption> Access granted! X-Win32 (top) cuts the welcome messages, PuTTY (bottom) </figcaption>
 </figure><br>
 
 
-#Now let's compile on Artemis
+## Now let's compile on Artemis
 copy or re-write your programs on Artemis.
 The compiling method is the same, but we need to make sure we load the required programs, then the procedure is the same.
 
