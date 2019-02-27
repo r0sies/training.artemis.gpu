@@ -79,7 +79,7 @@ If this is the first time connecting to Artemis, you will be asked to authorise 
 * If using 'PuTTY', a terminal window will appear and prompt you for your **username**, and then your **password**. Once entered, you should be logged on to Artemis! A command prompt on Artemis will appear in that window.
 
 <figure>
-  <img src="/fig/03_xwin.png" style="margin:10px;height:220px"/>
+  <img src="{{ page.root }}/fig/03_xwin.png" style="margin:10px;height:220px"/>
   <img src="{{ page.root }}/fig/03_putty.png" style="margin:10px;height:350px"/>
   <figcaption> Access granted! X-Win32 (top) cuts the welcome messages, PuTTY (bottom) </figcaption>
 </figure><br>
