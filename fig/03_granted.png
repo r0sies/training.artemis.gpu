@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>training.artemis.introhpc/01_granted.png at gh-pages · Sydney-Informatics-Hub/training.artemis.introhpc</title>
+  <title>training.artemis.gpu/03_granted.png at gh-pages · Sydney-Informatics-Hub/training.artemis.gpu</title>
     <meta name="description" content="Repo for Intro to HPC course. Contribute to Sydney-Informatics-Hub/training.artemis.introhpc development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -87,7 +87,7 @@
   <meta name="octolytics-dimension-user_id" content="38518764" /><meta name="octolytics-dimension-user_login" content="Sydney-Informatics-Hub" /><meta name="octolytics-dimension-repository_id" content="154684861" /><meta name="octolytics-dimension-repository_nwo" content="Sydney-Informatics-Hub/training.artemis.introhpc" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="154684861" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Sydney-Informatics-Hub/training.artemis.introhpc" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/Sydney-Informatics-Hub/training.artemis.introhpc/blob/gh-pages/fig/01_granted.png" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Sydney-Informatics-Hub/training.artemis.gpu/blob/gh-pages/fig/03_granted.png" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -376,7 +376,7 @@
           
 <div class="js-user-status-container user-status-compact" data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:38518764,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:5745258,&quot;client_id&quot;:&quot;1835452956.1547508068&quot;,&quot;originating_request_id&quot;:&quot;F15B:866C:41098:6023D:5C74A39C&quot;,&quot;originating_url&quot;:&quot;https://github.com/Sydney-Informatics-Hub/training.artemis.introhpc/blob/gh-pages/fig/01_granted.png&quot;}}" data-hydro-click-hmac="5f58fb5ff981fbc8d1ba184511df30aa87ea2c26100a4f3f9c902a703387a0e2">
+    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:38518764,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:5745258,&quot;client_id&quot;:&quot;1835452956.1547508068&quot;,&quot;originating_request_id&quot;:&quot;F15B:866C:41098:6023D:5C74A39C&quot;,&quot;originating_url&quot;:&quot;https://github.com/Sydney-Informatics-Hub/training.artemis.gpu/blob/gh-pages/fig/03_granted.png&quot;}}" data-hydro-click-hmac="5f58fb5ff981fbc8d1ba184511df30aa87ea2c26100a4f3f9c902a703387a0e2">
       <div class="f6 d-inline-block v-align-middle  user-status-emoji-only-header pl-0 circle lh-condensed user-status-header " style="max-width: 29px">
         <div class="user-status-emoji-container flex-shrink-0 mr-1">
           <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
@@ -765,7 +765,7 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Sydney-Informatics-Hub/training.artemis.introhpc/blob/85d33b1d8baec47cc161bde30d2d57f0216d6bbc/fig/01_granted.png">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Sydney-Informatics-Hub/training.artemis.gpu/blob/85d33b1d8baec47cc161bde30d2d57f0216d6bbc/fig/03_granted.png">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:3aaf0cdb48da379095983d96799160a2 -->
 
@@ -782,7 +782,7 @@
     <span class="css-truncate-target">gh-pages</span>
   </summary>
 
-  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/Sydney-Informatics-Hub/training.artemis.introhpc/ref-list/gh-pages/fig/01_granted.png?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/Sydney-Informatics-Hub/training.artemis.gpu/ref-list/gh-pages/fig/03_granted.png?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -801,12 +801,12 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/Sydney-Informatics-Hub/training.artemis.introhpc"><span>training.artemis.introhpc</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Sydney-Informatics-Hub/training.artemis.introhpc/tree/gh-pages/fig"><span>fig</span></a></span><span class="separator">/</span><strong class="final-path">01_granted.png</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/Sydney-Informatics-Hub/training.artemis.introhpc"><span>training.artemis.introhpc</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Sydney-Informatics-Hub/training.artemis.introhpc/tree/gh-pages/fig"><span>fig</span></a></span><span class="separator">/</span><strong class="final-path">03_granted.png</strong>
       </div>
     </div>
 
 
-    <include-fragment src="/Sydney-Informatics-Hub/training.artemis.introhpc/contributors/gh-pages/fig/01_granted.png" class="commit-tease commit-loader">
+    <include-fragment src="/Sydney-Informatics-Hub/training.artemis.introhpc/contributors/gh-pages/fig/03_granted.png" class="commit-tease commit-loader">
       <div>
         Fetching contributors&hellip;
       </div>
@@ -831,8 +831,8 @@
   <div class="file-actions d-flex ">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Sydney-Informatics-Hub/training.artemis.introhpc/raw/gh-pages/fig/01_granted.png">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Sydney-Informatics-Hub/training.artemis.introhpc/commits/gh-pages/fig/01_granted.png">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Sydney-Informatics-Hub/training.artemis.gpu/raw/gh-pages/fig/03_granted.png">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Sydney-Informatics-Hub/training.artemis.gpu/commits/gh-pages/fig/03_granted.png">History</a>
     </div>
 
 
@@ -844,7 +844,7 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Sydney-Informatics-Hub/training.artemis.introhpc/delete/gh-pages/fig/01_granted.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eVJT/i/4EYnlRbJFlZvLOz1G991L1a7CPfkqlkrGDs7Bi9Dph0qwMfiIbY1sEVR1HAB7KKRalMQQQUbPKjHrXQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Sydney-Informatics-Hub/training.artemis.gpu/delete/gh-pages/fig/03_granted.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eVJT/i/4EYnlRbJFlZvLOz1G991L1a7CPfkqlkrGDs7Bi9Dph0qwMfiIbY1sEVR1HAB7KKRalMQQQUbPKjHrXQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -857,7 +857,7 @@
 
   <div itemprop="text" class="blob-wrapper data type-text ">
       <div class="image">
-          <span class="border-wrap"><img src="/Sydney-Informatics-Hub/training.artemis.introhpc/blob/gh-pages/fig/01_granted.png?raw=true" alt="01_granted.png"></span>
+          <span class="border-wrap"><img src="/Sydney-Informatics-Hub/training.artemis.gpu/blob/gh-pages/fig/03_granted.png?raw=true" alt="03_granted.png"></span>
       </div>
   </div>
 
