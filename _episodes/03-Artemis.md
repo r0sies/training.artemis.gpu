@@ -20,6 +20,7 @@ Linux and Mac both have native terminal apps, so you only need to open them. You
   <figcaption> An iTerm2 terminal window on Mac</figcaption>
 </figure><br>
 
+
 To connect to Artemis securely, we'll use the **SSH** (Secure Socket Shell) protocol; on most systems, any installed SSH client will be invoked by the command 'ssh'. Before you connect, make sure you know your **username** and **password**. When you use Artemis for your research, these will be your **Unikey** and **Unikey password**; however, for this training course we'll be using _training accounts_, which are:
 
 * Username: **ict_hpctrain\<N\>**, with N from 1-20 (replace _**\<N\>**_ with your assigned number)
