@@ -6,7 +6,7 @@ Connections to Artemis are **remote connections** -- you'll never sit at one of 
 
 You can thus connect to Artemis from _anywhere_, requiring only a **terminal emulator** with an **SSH client**. (If you're not on the USyd network (ie off-campus), you'll also need to connect to the University's **[VPN](http://staff.ask.sydney.edu.au/app/answers/detail/a_id/519/kw/vpn)**, or use Artemis' intermediate **_Jump server_**).
 
-If you followed the [Setup]({{ page.root }}/setup) instructions, then you should already have the required software installed. If not, _please go do this now_!
+If you followed the [Setup]({{ page.root }}/setup) instructions, then you should already have the required software installed. If not, _we will do this now_!
 
 
 <h2 data-toc-text="via SSH command line"> Connecting via SSH in a terminal (recommended)</h2>
