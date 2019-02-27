@@ -53,7 +53,7 @@ Are you sure you want to continue connecting (yes/no)?
 Enter 'yes'. You will then be asked for your password; type it and press 'enter'. and you should then be logged in!
 
 <figure>
-  <img src="{{ page.root }}/fig/03_granted.png" style="margin:10px;height:420px"/>
+  <img src="{{ page.root }}/fig/03_granted.png" style="height:480px"/>
   <figcaption> Access granted! </figcaption>
 </figure><br>
 
