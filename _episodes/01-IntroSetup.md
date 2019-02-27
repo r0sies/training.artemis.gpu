@@ -9,46 +9,59 @@ This episode introduces a few ways we can set up a working GPU environemnt. You 
 A Graphics Processing Unit as opposed to a Central Processing Unit (CPU).
 Originally intended for sending an image to the pixels on the screen, someone then figured out that by treating data as a texture map you could perfom lots of calculations simultanously, and the age of the GPGPU (general-purpose graphics processing unit) began.
 
+## How do I get access to a GPU?
+
+Your PC!
+
+Sydney University HPC [Artemis](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/185827329/Artemis+User+Guide) 
+
+Sydney University Virtual Research Desktop [Argus](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/212828220/Argus+User+Guide)
+
+[NCI](http://nci.org.au/)
+
+[Pawsey](https://pawsey.org.au/)
+
+Other clouds like GCP, AWS, Azure, NGC, etc
+
+### Why do I want to use a GPU?
+
 GPU or CPU
 
 Some workloads are great for GPUs others are not.
 
 Threads/Blocks/all that.
 
-## How do I get access to a GPU?
-
-Artemis/Argus/PC
-NCI
-Pawsey
-
 
 ### How do you develop code for GPU computing?
 
 The most common langauges for developing code for GPUs are
-***CUDA***, ***OpenCL***, and ***OpenACC***. These are all low-level and require fairly strong programming capabilities. However, high-level languages like ***Python*** and ***Matlab*** and subsequent packages within them (keras, tensorflow, theano, etc), can make use of your GPU by essentially writing CUDA for you! We will see a few examples and you can decide what language best suits your use cases.
+***CUDA***, ***OpenCL***, and ***OpenACC***. These are all low-level and require fairly strong programming capabilities. However, high-level languages like ***Python*** and ***Matlab*** and subsequent packages within them (keras, tensorflow, theano, etc), can make use of your GPU by essentially writing CUDA (or OpenCL) for you! We will see a few examples and you can decide what language best suits your use cases. We will be focusing on CUDA-capable cards (i.e NVIDIA). OpenCL works on the other most popular GPU card, AMD Radeons (Mac GPU of choice). Plus there has been a push from mobile markets to get more into the GPU space, so now companies like ARM and Intel (which also support OpenCL) are starting to have more of an impact on GPU computing. 
+
 
 
 ## Requirements
-On your local machine you will need some compilers. I will be using:
-
-```gcc (Ubuntu 6.5.0-2ubuntu1~18.04) 6.5.0 20181026```
-
-and the Nvidia cuda compiler (installed with the CUDA toolkit)
-
-```nvcc release 9.0, V9.0.176```
 
 For HPC work all you need is an ssh client (instructions [here](./setup.html)).
 
-
-### NVIDIA installation instructions
+### NVIDIA local installation instructions
 
 **Windows 10**
 
-Install the NVIDIA graphics driver.
+Install [Visual Studio 2017](https://visualstudio.microsoft.com/).
 
-Install the CUDA drivers.
+Install the NVIDIA graphics driver and CUDA drivers.
+Download both from the [NVIDIA download page](https://www.nvidia.com/Download/index.aspx?lang=en-us). 
 
-Download both from the [NVIDIA download page](https://www.nvidia.com/Download/index.aspx?lang=en-us). Easy.
+Specific versions of tools working together for me are:
+
+C compiler, installed with Visual Studio 2017, ***cl.exe***
+
+```Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27027.1 for x64```
+
+Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
+
+```nvcc: NVIDIA (R) Cuda compiler driver Cuda compilation tools, release 10.0, V10.0.130```
+
 
 **Linux (Xubuntu 18.04)**
 
@@ -56,6 +69,15 @@ Probably as simple as selecting the NVIDIA driver.
 Then installing the CUDA drivers for the driver/GPU combo.
 More info here [https://informatics.sydney.edu.au/blogs/tf_on_linux/](https://informatics.sydney.edu.au/blogs/tf_on_linux/)
 
+Specific versions of tools working together for me are:
+
+C compiler, ***gcc***
+
+```gcc (Ubuntu 6.5.0-2ubuntu1~18.04) 6.5.0 20181026```
+
+and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
+
+```nvcc release 9.0, V9.0.176```
 
 
 **Mac OSX**
@@ -67,7 +89,7 @@ If you have Mac product newer than about 2014 you probably don't have CUDA-capab
 ### Which version(s) to use?
 
 Depends what features you need; if you need the latest then go with that. 
-Different cards have different compute capability and different CUDA requirements. And these options bleed down the dependency list (also known as software stack). So if you don't know, go for the latest stable release compatible over your software stack.
+Different cards have different compute capability and different CUDA requirements. And these options bleed down the dependency list (also known as software stack). So if you don't know, go for the latest stable release compatible over your software stack. Check your [CUDA compatability here](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
 
 
 **There is an update for XXXX, should I get it?**
