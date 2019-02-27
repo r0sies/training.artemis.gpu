@@ -90,7 +90,11 @@ copy or re-write your programs on Artemis.
 The compiling method is the same, but we need to make sure we load the required programs, then the procedure is the same.
 
 ```
+#First load the cuda module - this gives us access to nvcc
 module load cuda/8.0.44
+
+#Then compile as before
+nvcc hello_world.cu -o hell_gpu
 ```
 
 Now, if you have tried to run it, you will find that you will get no output - that is because you are on a ***login node***, i.e. there is no GPU there. If you want to use a GPU you must run your code on a gpu node!
@@ -106,10 +110,13 @@ Let's write a pbs script to get our code running, create a new file called ```he
 #PBS -l walltime=00:01:00
 #PBS -q defaultQ
 
+#Change into the directory where you submitted qsub
 cd $PBS_O_WORKDIR
 
+#Load modules we need
 module load cuda/8.0.44
 
+#Actually run the program
 ./hello_gpu
 
 ```
