@@ -31,6 +31,14 @@ Some workloads are great for GPUs others are not.
 
 Threads/Blocks/all that.
 
+<figure>
+  <img src="{{ page.root }}/fig/01_gpuVScpu.png" style="margin:10px;height:400px"/>
+  <img src="{{ page.root }}/fig/01_gpuVScpu2.png" style="margin:10px;height:400px"/>
+  <figcaption> An informative way to compare CPU and GPU computing.</figcaption>
+</figure><br>
+
+
+
 
 ### How do you develop code for GPU computing?
 
