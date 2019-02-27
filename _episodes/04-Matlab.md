@@ -2,7 +2,7 @@
 title: "Matlab GPU example"
 ---
 
-If you have Matlab installed, open up ```data/gpu_demo_Mandelbrot.m```.
+If you have Matlab installed, open up ```gpu_demo_Mandelbrot.m```.
 
 You can go ahead and click the run button and the script should start running (probabbly takes about 1 minute)!
 Near the top of the code, the command ```gpuDevice``` should give you some information about GPU devices that Matlab can see.
@@ -60,7 +60,7 @@ Check out **GPU_CUDA.PNG** for the super-fast speed up.
 To run this example on Artemis, first copy the ```gpu_demo_Mandelbrot.m``` Matlab script to Artemis. You can use whatever method you like to [transfer it to Artemis](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/212795438/Transferring+data+between+your+local+computer+and+HPC), but here is how to do it with ```scp```:
 
 ```
-scp data/gpu_demo_Mandelbrot.m ict_hpctrain1@hpc.sydney.edu.au:/project/Training/nathan
+scp gpu_demo_Mandelbrot.m ict_hpctrain1@hpc.sydney.edu.au:/project/Training/nathan
 ```
 
 Next connect to Artemis using your favourite method, navigate to where you copied the file, copy an old *.pbs script and get ready to make some changes to it
