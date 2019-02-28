@@ -46,6 +46,11 @@ Other clouds like GCP, AWS, Azure, NGC, etc
   <img src="{{ page.root }}/fig/01_gpufast.jpg" style="margin:10px;height:300px"/>
 </figure><br>
 
+We can visualise the CPU and GPU as something like this:
+<figure>
+  <img src="{{ page.root }}/fig/01_gpuVScpuGRID.JPG" style="margin:10px;height:300px"/>
+</figure><br>
+
 |CPU strengths| GPU strengths|
 |---|---|
 | Very large main memory | High bandwidth main memory |
@@ -55,6 +60,7 @@ Other clouds like GCP, AWS, Azure, NGC, etc
 | | High performance/watt |
 
 |CPU weaknesses| GPU weaknesses|
+|---|---|
 | Relatively low memory bandwidth | Relatively low memory capacity |
 | Low performance/watt | Low per-thread performance |
 
@@ -78,14 +84,6 @@ GPU strengths:
 GPU weaknesses:
 * Relatively low memory capacity
 * Low per-thread performance
-
-
-<figure>
-  <img src="{{ page.root }}/fig/01_gpuVScpuGRID.JPG" style="margin:10px;height:400px"/>
-  <figcaption> Visualising the CPU and GPU</figcaption>
-</figure><br>
-
-
 
 
 Threads/Blocks/all that.
