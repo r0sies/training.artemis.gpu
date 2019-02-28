@@ -76,13 +76,13 @@ We can visualise the CPU and GPU as something like this:
 
 
 <figure>
-  <img src="{{ page.root }}/fig/01_thread.png" style="margin:10px;height:200px"/>
+  <img src="{{ page.root }}/fig/01_threads.png" style="margin:10px;height:400px"/>
 </figure><br>
 
 Use device query (or gpuQuerey in Matlab) to see some details about your GPU.
 
 <figure>
-  <img src="{{ page.root }}/fig/01_gpuenv.jpg" style="margin:10px;height:200px"/>
+  <img src="{{ page.root }}/fig/01_gpuenv.jpg" style="margin:10px;height:400px"/>
   <figcaption> Many different ways to use and interface GPUs.</figcaption>
 </figure><br>
 
