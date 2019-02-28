@@ -1,8 +1,76 @@
 ---
 layout: page
-title: Setup
+title: GPU and SSH setup
 root: "."
 ---
+
+
+# GPU Requirements
+
+### NVIDIA local installation instructions
+
+**Windows 10**
+
+Install [Visual Studio 2017](https://visualstudio.microsoft.com/).
+
+Install the NVIDIA graphics driver and CUDA drivers.
+Download both from the [NVIDIA download page](https://www.nvidia.com/Download/index.aspx?lang=en-us). 
+
+Specific versions of tools working together for me are:
+
+C compiler, installed with Visual Studio 2017, ***cl.exe***
+
+```Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27027.1 for x64```
+
+Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
+
+```nvcc: NVIDIA (R) Cuda compiler driver Cuda compilation tools, release 10.0, V10.0.130```
+
+
+**Linux (Xubuntu 18.04)**
+
+Probably as simple as selecting the NVIDIA driver.
+Then installing the CUDA drivers for the driver/GPU combo.
+More info here [https://informatics.sydney.edu.au/blogs/tf_on_linux/](https://informatics.sydney.edu.au/blogs/tf_on_linux/)
+
+Specific versions of tools working together for me are:
+
+C compiler, ***gcc***
+
+```gcc (Ubuntu 6.5.0-2ubuntu1~18.04) 6.5.0 20181026```
+
+and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
+
+```nvcc release 9.0, V9.0.176```
+
+
+**Mac OSX**
+
+If you have Mac product newer than about 2014 you probably don't have CUDA-capable GPU card in there. This was done for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But good luck, you are on your own. For now, you can do the Artemis examples!
+
+## Matlab
+I will be using Matlab 2018a locally and on HPC.
+
+## Python
+I will be using Python 3.5 - further setup instructions are given in the [Python example page](https://sydney-informatics-hub.github.io/training.artemis.gpu/05-Python/index.html).
+
+## Which version(s) to use?
+
+Depends what features you need; if you need the latest then go with that. 
+Different cards have different compute capability and different CUDA requirements. And these options bleed down the dependency list (also known as software stack). So if you don't know, go for the latest stable release compatible over your software stack. Check your [CUDA compatability here](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
+
+
+**There is an update for XXXX, should I get it?**
+Maybe, but probably not. (Not while I am teaching you anyway.) This workshop is for scientific development of applications, chances are you will hack together some code and run it once, so we are not aiming to get this working on every GPU system in the world. But versioning is super important.
+
+
+## What about Containers?
+Docker/singularity are great for simplifying the development environments, BUT they still require the underlying installitions of NVIDIA drivers for your specific GPU card, plus a version of CUDA that works with that combo!
+
+
+
+
+For HPC work all you need is an ssh client as below...
 
 # Get a shell terminal emulator
 
