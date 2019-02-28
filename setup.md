@@ -5,7 +5,12 @@ root: "."
 ---
 
 If you want to follow along on your local machine use these instructions! 
+
 If you only want to follow along using Artemis, all you need is an SSH client, as described below.
+
+We will be using the Artemis Training Accounts today (instructions detailed below.)
+
+All the data is on Artemis in /project/Training/GPUtraining (which you can access through the training accounts) or you can [download the data from here](https://www.dropbox.com/s/w9e71rzyus2f9uw/GPUtraining.tar.gz?dl=0)
 
 # GPU Requirements
 
