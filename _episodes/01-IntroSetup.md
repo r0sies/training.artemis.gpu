@@ -36,7 +36,32 @@ Other clouds like GCP, AWS, Azure, NGC, etc
 
 ### Why do I want to use a GPU?
 
-GPU or CPU
+CPU strengths:
+* Very large main memory
+* Very fast clock speeds
+* Latency optimized via large caches
+* Small number of threads can run very quickly
+
+CPU Weaknesses:
+* Relatively low memory bandwidth
+* Low performance/watt
+
+GPU strengths: 
+* High bandwidth main memory
+* Latency tolerant via parallelism
+* Significantly more compute resources
+* High throughput
+* High performance/watt
+
+GPU weaknesses:
+* Relatively low memory capacity
+* Low per-thread performance
+
+
+<figure>
+  <img src="{{ page.root }}/fig/01_gpuVScpuGRID.jpg" style="margin:10px;height:400px"/>
+  <figcaption> Visualising the CPU and GPU</figcaption>
+</figure><br>
 
 Some workloads are great for GPUs others are not.
 
