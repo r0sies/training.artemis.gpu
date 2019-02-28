@@ -2,6 +2,8 @@
 title: "Matlab GPU example"
 ---
 
+Matlab can interface with your GPU card in several ways. We will explore the different ways you can do this (with varying complexity). For a list of version compatability check [here](https://au.mathworks.com/help/distcomp/gpu-support-by-release.html).
+
 If you have Matlab installed, open up ```gpu_demo_Mandelbrot.m```.
 
 You can go ahead and click the run button and the script should start running (probabbly takes about 1 minute)!
