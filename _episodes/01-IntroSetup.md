@@ -1,6 +1,17 @@
+
 ---
 title: "Creating an environment for GPU computing"
+author: "Nathaniel Butterworth, Cali Willet"
+keypoints:
+- GPU vs CPU
+- CUDA
+objectives:
+- Understand why GPUs are cool
+- Setting up a development environment
+source: Rmd
+teaching: 30
 ---
+
 
 This episode introduces a few ways we can set up a working GPU environemnt. You will find to get a well-functioning CUDA development environment there is a precious balance between your operating system, your model of GPU, your NVIDIA GPU driver, and your CUDA version that straddle across all the other pieces (not to mention the software, e.g. tensorflow, python, keras, matlab, that depends on the underlying set-up).
 
