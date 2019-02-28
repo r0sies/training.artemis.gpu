@@ -1,4 +1,3 @@
-
 ---
 title: "Creating an environment for GPU computing"
 
