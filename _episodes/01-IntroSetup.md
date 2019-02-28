@@ -43,7 +43,7 @@ Other clouds like GCP, AWS, Azure, NGC, etc
 ### Why do I want to use a GPU?
 
 <figure>
-  <img src="{{ page.root }}/fig/01_gpufast.jpg" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/01_gpufast.png" style="margin:10px;height:300px"/>
 </figure><br>
 
 We can visualise the CPU and GPU as something like this:
