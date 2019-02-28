@@ -10,7 +10,7 @@ If you only want to follow along using Artemis, all you need is an SSH client, a
 
 We will be using the Artemis Training Accounts today (instructions detailed below.)
 
-All the data is on Artemis in /project/Training/GPUtraining (which you can access through the training accounts) or you can [download the data from here](https://www.dropbox.com/s/w9e71rzyus2f9uw/GPUtraining.tar.gz?dl=0)
+All the data is on Artemis in /project/Training/GPUtraining (which you can access through the training accounts) or you can [download the data from here](https://www.dropbox.com/s/w9e71rzyus2f9uw/GPUtraining.tar.gz?dl=1)
 
 # GPU Requirements
 
