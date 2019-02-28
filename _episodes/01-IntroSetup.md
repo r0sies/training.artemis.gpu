@@ -21,6 +21,11 @@ This episode introduces a few ways we can set up a working GPU environemnt. You 
 A Graphics Processing Unit as opposed to a Central Processing Unit (CPU).
 Originally intended for sending an image to the pixels on the screen, someone then figured out that by treating data as a texture map you could perfom lots of calculations simultanously, and the age of the GPGPU (general-purpose graphics processing unit) began.
 
+<figure>
+  <img src="{{ page.root }}/fig/01_gpu.jpg" style="margin:10px;height:400px"/>
+</figure><br>
+
+
 ## How do I get access to a GPU?
 
 Your PC!
@@ -36,6 +41,19 @@ Sydney University Virtual Research Desktop [Argus](https://sydneyuni.atlassian.n
 Other clouds like GCP, AWS, Azure, NGC, etc
 
 ### Why do I want to use a GPU?
+
+<figure>
+  <img src="{{ page.root }}/fig/01_gpu.jpg" style="margin:10px;height:400px"/>
+  <figcaption> Visualising the CPU and GPU</figcaption>
+</figure><br>
+
+|CPU strengths| GPU strengths|
+|---|---|
+| Very large main memory | High bandwidth main memory |
+| Very fast clock speeds | Latency tolerant via parallelism |
+| Latency optimized via large caches | Significantly more compute resources |
+| Small number of threads can run very quickly | High throughput |
+| | High performance/watt |
 
 CPU strengths:
 * Very large main memory
@@ -60,11 +78,12 @@ GPU weaknesses:
 
 
 <figure>
-  <img src="{{ page.root }}/fig/01_gpuVScpuGRID.jpg" style="margin:10px;height:400px"/>
+  <img src="{{ page.root }}/fig/01_gpuVScpuGRID.JPG" style="margin:10px;height:400px"/>
   <figcaption> Visualising the CPU and GPU</figcaption>
 </figure><br>
 
-Some workloads are great for GPUs others are not.
+
+
 
 Threads/Blocks/all that.
 
