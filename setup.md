@@ -4,6 +4,7 @@ title: GPU and SSH setup
 root: "."
 ---
 
+If you want to follow along on your local machine uses these instructions. If you only want to follow along using Artemis, all you need is an SSH client, as described below.
 
 # GPU Requirements
 
