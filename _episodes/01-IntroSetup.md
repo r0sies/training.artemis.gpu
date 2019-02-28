@@ -1,7 +1,9 @@
 
 ---
 title: "Creating an environment for GPU computing"
+
 author: "Nathaniel Butterworth, Cali Willet"
+
 keypoints:
 - GPU vs CPU
 - CUDA
