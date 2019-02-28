@@ -96,7 +96,11 @@ Threads/Blocks/all that.
 
 
 GPU devel environment and application examples
+device query
+Time for grant applications
+Zoom
 
+Summary at end of SIH, requests, etc.
 
 ### How do you develop code for GPU computing?
 
