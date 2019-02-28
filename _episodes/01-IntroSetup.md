@@ -95,6 +95,7 @@ Threads/Blocks/all that.
 </figure><br>
 
 
+GPU devel environment and application examples
 
 
 ### How do you develop code for GPU computing?
