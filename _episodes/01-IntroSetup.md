@@ -22,7 +22,7 @@ A Graphics Processing Unit as opposed to a Central Processing Unit (CPU).
 Originally intended for sending an image to the pixels on the screen, someone then figured out that by treating data as a texture map you could perfom lots of calculations simultanously, and the age of the GPGPU (general-purpose graphics processing unit) began.
 
 <figure>
-  <img src="{{ page.root }}/fig/01_gpu.jpg" style="margin:10px;height:400px"/>
+  <img src="{{ page.root }}/fig/01_gpu.jpg" style="margin:10px;height:200px"/>
 </figure><br>
 
 
@@ -43,8 +43,7 @@ Other clouds like GCP, AWS, Azure, NGC, etc
 ### Why do I want to use a GPU?
 
 <figure>
-  <img src="{{ page.root }}/fig/01_gpu.jpg" style="margin:10px;height:400px"/>
-  <figcaption> Visualising the CPU and GPU</figcaption>
+  <img src="{{ page.root }}/fig/01_gpufast.jpg" style="margin:10px;height:300px"/>
 </figure><br>
 
 |CPU strengths| GPU strengths|
@@ -54,6 +53,10 @@ Other clouds like GCP, AWS, Azure, NGC, etc
 | Latency optimized via large caches | Significantly more compute resources |
 | Small number of threads can run very quickly | High throughput |
 | | High performance/watt |
+
+|CPU weaknesses| GPU weaknesses|
+| Relatively low memory bandwidth | Relatively low memory capacity |
+| Low performance/watt | Low per-thread performance |
 
 CPU strengths:
 * Very large main memory
@@ -90,7 +93,7 @@ Threads/Blocks/all that.
 <figure>
   <img src="{{ page.root }}/fig/01_gpuVScpu.png" style="margin:10px;height:400px"/>
   <img src="{{ page.root }}/fig/01_gpuVScpu2.png" style="margin:10px;height:400px"/>
-  <figcaption> An informative way to compare CPU and GPU computing.</figcaption>
+  <figcaption> An informative way to compare CPU and GPU computing comparing speed and throughput.</figcaption>
 </figure><br>
 
 
