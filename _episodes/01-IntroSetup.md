@@ -75,12 +75,20 @@ We can visualise the CPU and GPU as something like this:
 </figure><br>
 
 
-GPU devel environment and application examples
-device query
+<figure>
+  <img src="{{ page.root }}/fig/01_thread.png" style="margin:10px;height:200px"/>
+</figure><br>
+
+Use device query (or gpuQuerey in Matlab) to see some details about your GPU.
+
+<figure>
+  <img src="{{ page.root }}/fig/01_gpuenv.jpg" style="margin:10px;height:200px"/>
+  <figcaption> Many different ways to use and interface GPUs.</figcaption>
+</figure><br>
+
+
 Time for grant applications
 Zoom
-Threads/Blocks/all that.
-
 Summary at end of SIH, requests, etc.
 
 ### How do you develop code for GPU computing?
