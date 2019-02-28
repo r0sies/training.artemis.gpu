@@ -4,7 +4,8 @@ title: GPU and SSH setup
 root: "."
 ---
 
-If you want to follow along on your local machine uses these instructions. If you only want to follow along using Artemis, all you need is an SSH client, as described below.
+If you want to follow along on your local machine use these instructions! 
+If you only want to follow along using Artemis, all you need is an SSH client, as described below.
 
 # GPU Requirements
 
@@ -49,13 +50,13 @@ and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 
 If you have Mac product newer than about 2014 you probably don't have CUDA-capable GPU card in there. This was done for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But good luck, you are on your own. For now, you can do the Artemis examples!
 
-## Matlab
+### Matlab
 I will be using Matlab 2018a locally and on HPC.
 
-## Python
+### Python
 I will be using Python 3.5 - further setup instructions are given in the [Python example page](https://sydney-informatics-hub.github.io/training.artemis.gpu/05-Python/index.html).
 
-## Which version(s) to use?
+### Which version(s) to use?
 
 Depends what features you need; if you need the latest then go with that. 
 Different cards have different compute capability and different CUDA requirements. And these options bleed down the dependency list (also known as software stack). So if you don't know, go for the latest stable release compatible over your software stack. Check your [CUDA compatability here](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
@@ -65,7 +66,7 @@ Different cards have different compute capability and different CUDA requirement
 Maybe, but probably not. (Not while I am teaching you anyway.) This workshop is for scientific development of applications, chances are you will hack together some code and run it once, so we are not aiming to get this working on every GPU system in the world. But versioning is super important.
 
 
-## What about Containers?
+### What about Containers?
 Docker/singularity are great for simplifying the development environments, BUT they still require the underlying installitions of NVIDIA drivers for your specific GPU card, plus a version of CUDA that works with that combo!
 
 
@@ -73,7 +74,7 @@ Docker/singularity are great for simplifying the development environments, BUT t
 
 For HPC work all you need is an ssh client as below...
 
-# Get a shell terminal emulator
+# Get a shell terminal emulator to connect to Artemis HPC
 
 To connect to Artemis HPC, and follow this lesson, you will need a **'terminal emulator'** program installed on your computer. Often just called a 'terminal', or 'shell terminal', 'shell client', terminal emulators give you a window with a _command line interface_ through which you can send commands to be executed by your computer.
 
