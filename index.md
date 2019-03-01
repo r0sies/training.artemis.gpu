@@ -16,6 +16,8 @@ Another course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pag
 
 A specialised lesson, ['_Matlab on Artemis: The MDCS_']({{ site.sih_pages }}/training.artemis.mdcs), is a course for users of MATLAB who would like to submit jobs directly to the cluster from their local computers.
 
+Everything covered here has more detail in the [Artemis guide, get it here](https://sydneyuni.atlassian.net/wiki/spaces/RC/overview).
+
 > ## Prerequisites
 > Competency on the Unix/Linux command line:
 >
