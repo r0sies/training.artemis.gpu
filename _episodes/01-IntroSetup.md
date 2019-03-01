@@ -87,9 +87,8 @@ Use device query (or gpuQuerey in Matlab) to see some details about your GPU.
 </figure><br>
 
 
-Time for grant applications
-Zoom
-Summary at end of SIH, requests, etc.
+Having proposed GPU (or CPU) compute time on grant applications can show you are conducting accelerated research! Get in touch with us for help estimating your resource usage, or for any assitance, [https://informatics.sydney.edu.au/](https://informatics.sydney.edu.au/)
+
 
 ### How do you develop code for GPU computing?
 
