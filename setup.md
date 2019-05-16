@@ -33,6 +33,8 @@ Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 
 ```nvcc: NVIDIA (R) Cuda compiler driver Cuda compilation tools, release 10.0, V10.0.130```
 
+You may need to link the correct cl.exe and nvcc somehow. The way I acheieved this was by launching the ***x64 Native Tools Command Prompt*** from the  **Developer command prompt shortcuts** listed here
+https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019 and then I could run nvcc successfully.
 
 **Linux (Xubuntu 18.04)**
 
