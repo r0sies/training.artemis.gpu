@@ -10,18 +10,12 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 **Follow-on courses:** This course is **part** of the **[Artemis HPC Training Series]({{ site.series_home }})**.
 
-This first lesson is intended as part one of a pair, with [‘_Introduction to the Artemis HPC_’]({{ site.sih_pages }}/training.artemis.introhpc) in the morning and [‘_Data transfer and RDS for HPC_’]({{ site.sih_pages }}/training.artemis.rds) in the afternoon. It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
-
-Another course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pages }}/{{ site.github.repository_name }}), extends users' knowledge of the PBS Pro scheduling system, and builds scripting skills for automating large workflows on HPC.
-
-A specialised lesson, ['_Matlab on Artemis: The MDCS_']({{ site.sih_pages }}/training.artemis.mdcs), is a course for users of MATLAB who would like to submit jobs directly to the cluster from their local computers.
-
-Everything covered here has more detail in the [Artemis guide, get it here](https://sydneyuni.atlassian.net/wiki/spaces/RC/overview).
+Most topics covered here have extra detail in the [Artemis guide, get it here](https://sydneyuni.atlassian.net/wiki/spaces/RC/overview).
 
 > ## Prerequisites
 > Competency on the Unix/Linux command line:
 >
-> * If you are interested in learning HPC but have no Unix/Linux command-line skills, you MUST first take an [Introduction to Unix/Linux](https://intersect.org.au/training/course/unix) course.
+> * If you are interested in getting started in most computing environments but have no Unix/Linux command-line skills, you should first take an [Introduction to Unix/Linux](https://intersect.org.au/training/course/unix) course.
 >
 > **OWN LAPTOP REQUIRED**.
 {: .prereq}
