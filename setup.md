@@ -4,17 +4,19 @@ title: GPU and SSH setup
 root: "."
 ---
 
-If you want to follow along on your local machine use these instructions! 
+If you want to follow along and complete the exercises on your local machine use these setup instructions. 
 
 If you only want to follow along using Artemis, all you need is an SSH client, as described below.
 
-We will be using the Artemis Training Accounts today (instructions detailed below.)
+We will be using the Artemis Training accounts today (instructions detailed below.)
 
-All the data is on Artemis in /project/Training/GPUtraining (which you can access through the training accounts) or you can [download the data from here](https://www.dropbox.com/s/w9e71rzyus2f9uw/GPUtraining.tar.gz?dl=1)
+All the data/scripts used in this course is location on Artemis at ```/project/Training/GPUtraining``` (which you can access through the training accounts) or you can [download the data directly from here](https://www.dropbox.com/s/w9e71rzyus2f9uw/GPUtraining.tar.gz?dl=1)
 
 # GPU Requirements
 
-### NVIDIA local installation instructions
+An CUDA capable GPU card. Artemis has NVIDA Tesla V100s with a compute capability of 7.0. The older generation on the training nodes are Tesla K40s with compute capability of 3.5. Generally code is forwards compatible, but not backwards compatible. So be sure to know what you kind of GPU care you are testing and deploying on.
+
+## NVIDIA driver and CUDA local installation instructions
 
 **Windows 10**
 
@@ -33,8 +35,8 @@ Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 
 ```nvcc: NVIDIA (R) Cuda compiler driver Cuda compilation tools, release 10.0, V10.0.130```
 
-You may need to link the correct cl.exe and nvcc somehow. The way I acheieved this was by launching the ***x64 Native Tools Command Prompt*** from the  **Developer command prompt shortcuts** listed here
-https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019 and then I could run nvcc successfully.
+You may need to link the correct ```cl.exe``` and ```nvcc``` somehow. The way I acheieved this was by launching the ***x64 Native Tools Command Prompt*** from the  **Developer command prompt shortcuts** as listed here
+[https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019) and then I could run ```nvcc``` successfully.
 
 **Linux (Xubuntu 18.04)**
 
@@ -57,26 +59,28 @@ and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 
 If you have Mac product newer than about 2014 you probably don't have CUDA-capable GPU card in there. This was done for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But good luck, you are on your own. For now, you can do the Artemis examples!
 
-### Matlab
+# Other Software
+
+## Matlab
 I will be using Matlab 2018a locally and on HPC.
 
-### Python
+## Python
 I will be using Python 3.5 - further setup instructions are given in the [Python example page](https://sydney-informatics-hub.github.io/training.artemis.gpu/05-Python/index.html).
 
-### Which version(s) to use?
+# Which version(s) to use?
 
 Depends what features you need; if you need the latest then go with that. 
 Different cards have different compute capability and different CUDA requirements. And these options bleed down the dependency list (also known as software stack). So if you don't know, go for the latest stable release compatible over your software stack. Check your [CUDA compatability here](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
 
 
 **There is an update for XXXX, should I get it?**
-Maybe, but probably not. (Not while I am teaching you anyway.) This workshop is for scientific development of applications, chances are you will hack together some code and run it once, so we are not aiming to get this working on every GPU system in the world. But versioning is super important.
+Maybe, but probably not. (Not while I am teaching you anyway.) This workshop is for scientific development of applications, chances are you will hack together some code and run it once, so we are not aiming to get this working on every GPU system in the world. Versioning is super important, and in my experience the number two cause of erros (number one is typos).
 
 
-### What about Containers?
+## What about Containers?
 Docker/singularity are great for simplifying the development environments, BUT they still require the underlying installitions of NVIDIA drivers for your specific GPU card, plus a version of CUDA that works with that combo!
 
-
+<br>
 
 
 For HPC work all you need is an ssh client as below...
