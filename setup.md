@@ -14,7 +14,7 @@ All the data/scripts used in this course is location on Artemis at ```/project/T
 
 # GPU Requirements
 
-An CUDA capable GPU card. Artemis has NVIDA Tesla V100s with a compute capability of 7.0. The older generation on the training nodes are Tesla K40s with compute capability of 3.5. Generally code is forwards compatible, but not backwards compatible. So be sure to know what you kind of GPU care you are testing and deploying on.
+An CUDA capable GPU card. Artemis has NVIDA Tesla V100s with a compute capability of 7.0. The older generation on the training nodes are Tesla K40s with compute capability of 3.5. Generally code is forwards compatible, but not backwards compatible. So be sure to know what  kind of GPU card you are testing and deploying on.
 
 ## NVIDIA driver and CUDA local installation instructions
 
