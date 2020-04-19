@@ -57,7 +57,7 @@ and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 
 ### **Mac OSX**
 
-If you have Mac product newer than about 2014 you probably don't have a CUDA-capable GPU card. This was done by Apple for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But good luck, you are on your own. For now, you can do the Artemis examples!
+If you have Mac product newer than about 2014 you probably don't have a CUDA-capable GPU card. This was done by Apple for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But don't despair you can do the Artemis examples! And there are still plenty of high-level libraries that can work with OpenCL (as opposed to CUDA), see an example of [Keras/TensorFlow here](https://informatics.sydney.edu.au/news/amdgpu/)
 
 # Other Software
 
