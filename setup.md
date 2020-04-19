@@ -18,7 +18,7 @@ An CUDA capable GPU card. Artemis has NVIDA Tesla V100s with a compute capabilit
 
 ## NVIDIA driver and CUDA local installation instructions
 
-**Windows 10**
+### **Windows 10**
 
 Install [Visual Studio 2017](https://visualstudio.microsoft.com/).
 
@@ -38,7 +38,7 @@ Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 You may need to link the correct ```cl.exe``` and ```nvcc``` somehow. The way I achieved this was by launching the ***x64 Native Tools Command Prompt*** from the  **Developer command prompt shortcuts** as listed here
 [https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019) and then I could run ```nvcc``` successfully.
 
-**Linux (Xubuntu 18.04)**
+### **Linux (Xubuntu 18.04)**
 
 Probably as simple as selecting the NVIDIA driver.
 Then installing the CUDA drivers for the driver/GPU combo.
@@ -55,7 +55,7 @@ and the Nvidia cuda compiler (installed with the CUDA toolkit), ***nvcc***
 ```nvcc release 9.0, V9.0.176```
 
 
-**Mac OSX**
+### **Mac OSX**
 
 If you have Mac product newer than about 2014 you probably don't have CUDA-capable GPU card in there. This was done for various reasons. Nevertheless, there are still drivers from NVIDA, and a few options with external GPUs. But good luck, you are on your own. For now, you can do the Artemis examples!
 
