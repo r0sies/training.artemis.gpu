@@ -8,11 +8,21 @@ keypoints:
 - Suitable problems for GPU
 - CUDA, and high level GPU environments
 - Where to get one
+
 objectives:
 - Understand why GPUs are cool
 - Setting up a development environment
-source: Rmd
+
 teaching: 30
+exercises: 0
+questions:
+- What is a GPU?
+- How do I get access to a GPU?
+- GPU or CPU?
+- How do I develop code for GPU computing?
+
+source: Rmd
+
 ---
 
 
