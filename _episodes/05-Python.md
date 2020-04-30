@@ -1,5 +1,17 @@
 ---
 title: "Deep Learning Time Series with Python, tensorflow, and a GPU"
+teaching: 20
+exercises: 20
+questions:
+- "How do you set up a Python environemnt on Artemis?"
+- "How submit a GPU dependent Python script to Artemis?"
+objectives:
+- "Set up your own Python environemnt"
+- "Run a tensorflow job"
+keypoints:
+- "Artemis has lots of software, but sometime you need to roll-your-own"
+- "Getting the correct balance of versions for software stacks is imperative"
+- "Not all GPUs are compliant with all software"
 ---
 
 Python offers many ways to make use of the compute capability in your GPU. A very common application is deep learning using the tensorflow and keras packages. In this example we are going to look at forecasting a timeseries using recurrent neural netowrks based on the history of the time series itself.
