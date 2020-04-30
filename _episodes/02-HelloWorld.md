@@ -1,10 +1,26 @@
 ---
 title: "Writing and running your first GPU program"
+
+keypoints:
+- Compilation of C and CUDA code are siilar
+- Running serial code and GPU code is similar
+
+objectives:
+- Compile and run our first code
+
+teaching: 10
+exercises: 10
+questions:
+- What compiler can you use to build C code?
+- What compiler can you use to build CUDA code?
+
+source: Rmd
+
 ---
 
 ## Hello World
 
-Make a new text file called ```hello_world.c```
+Make a new text file called ```hello_world.c``` as follows:
 
 
 ```
@@ -20,18 +36,17 @@ int main()
     hello_world_kernel();
 }
 ```
-
-Now compile your C code with
+Save it and compile your C code with:
 
 ```gcc hello_world.c -o hello_cpu```
 
-And run it and get the expected output...
+Now run your compiled program and get the expected output...
 ```
 ./hello_cpu
 Hello World!
 ```
 
-Great, so it is running as expected on CPU, now lets do it on the GPU. Make a new text file called ```hello_world.cu``` 
+Great, so it is running as expected on CPU, now lets do it on the GPU. Make a new text file called ```hello_world.cu```:
 
 ```
 #include <stdio.h>
@@ -47,12 +62,13 @@ int main()
     cudaDeviceReset();
 }
 ```
+What are the key differences here?
 
-Now compile it with the CUDA compiler, nvcc,
+Now compile your GPU code with the CUDA compiler, nvcc,
 
 ```nvcc hello_world.cu -o hello_gpu```
 
-run it, and get the expected GPU output...
+Run your compile CUDA code and get the expected GPU output...
 
 ```
 ./hello_gpu
@@ -66,7 +82,8 @@ Hello GPU World!
 Hello GPU World!
 ```
 
-Another example, matrix multplication, and we can run it on CPU and GPU to get a benchmark.
+Great, so that is a very simplified example of building and executing some basic CUDA code. These fundamentals are similar for compiling any code, and for executing any program.
+
 Okay now let's take it to Artemis.
 
 
