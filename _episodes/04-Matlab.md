@@ -12,6 +12,7 @@ keypoints:
 - "Submitting a Matlab job is otherwise the same as submitting any job on HPC"
 ---
 
+
 Matlab can interface with your GPU card in several ways. We will explore the different ways you can do this (with varying complexity). For a list of version compatability check [here](https://au.mathworks.com/help/distcomp/gpu-support-by-release.html).
 
 If you have Matlab installed, open up ```gpu_demo_Mandelbrot.m```.
