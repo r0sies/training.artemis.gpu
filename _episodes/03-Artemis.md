@@ -1,6 +1,19 @@
 ---
-title: "Connecting to Artemis"
+title: "Connecting to Artemis HPC"
+teaching: 20
+exercises: 10
+questions:
+- "What tools can you use to connect to Artemis?"
+- "How do you log in to a remote server (HPC)?"
+objectives:
+- "Learn how to connect to Artemis."
+keypoints:
+- "Connecting to Artemis requires a terminal emulator, and an account with access."
+- "Users connect to Artemis' _**login nodes**_ only."
+- "On Windows, use WSL, PuTTY, or another shell and terminal application of your choice."
+- "GUI login access is also available."
 ---
+
 
 Connections to Artemis are **remote connections** -- you'll never sit at one of Artemis' machines, which are stored in a secure data-centre in Western Sydney. Instead, you connect remotely into one of Artemis' **login nodes**. Login nodes are Artemis machines that don't perform any actual computing jobs, but simply provide users with an access gateway to Artemis' filesystems and the PBS Pro **job scheduler**.
 
@@ -69,8 +82,8 @@ If you're on Windows, and followed the [Setup]({{ page.root }}/setup) guide, the
 If this is the first time connecting to Artemis, you will be asked to authorise it as a trusted **host** server; click 'Accept' (X-Win32) or 'Yes' (PuTTY).
 
 <figure>
-  <img src="fig/03_xwinhosts.png" style="margin:10px;height:240px"/>
-  <img src="fig/03_puttyhosts.png" style="margin:10px;height:250px"/>
+  <img src="/fig/03_xwinhosts.png" style="margin:10px;height:240px"/>
+  <img src="/fig/03_puttyhosts.png" style="margin:10px;height:250px"/>
   <figcaption> Unknown host challenges: X-Win32 (top), PuTTY (bottom) </figcaption>
 </figure><br>
 
@@ -86,7 +99,7 @@ If this is the first time connecting to Artemis, you will be asked to authorise 
 
 
 ## Now let's compile on Artemis
-copy or re-write your programs on Artemis.
+You will need to either copy or re-write your programs on the remote computer, Artemis. We then have to compile the program again becasue the hardware on Artemis is probably different to what is on your local machine. Generally (and for optimal performance) you will have to compile your software on any different computer (e.g. Artemis @ USYD, GADI @ NCI, MAgnus @ Pawsey, AWS, etc) you want to run it on.
 The compiling method is the same, but we need to make sure we load the required programs, then the procedure is the same.
 
 ```
@@ -98,7 +111,7 @@ nvcc hello_world.cu -o hell_gpu
 ```
 
 Now, if you have tried to run it, you will find that you will get no output - that is because you are on a ***login node***, i.e. there is no GPU there. If you want to use a GPU you must run your code on a gpu node!
-There is one on the training node we are using today to speed things up. And there are several more you can access normally.
+There is one on the training node we are using today to speed things up. And there are several more you can access normally on the production nodes.
 
 Let's write a pbs script to get our code running, create a new file called ```hello.pbs```
 ```
@@ -124,12 +137,12 @@ And submit the jobscript to the queue with
 ```
 qsub hello.pbs
 ```
-This submits your job to the Artemis queue with the resources you have requested. It then runs the commands in the script, so will eventually run our hello_gpu program. Wait a couple minutes for the code to run and complete (you can check your position in the queue with ```qstat```.)
+This submits your job to the Artemis queue with the resources you have requested. It then runs the commands in the script, so will eventually run our ```hello_gpu``` program. Wait a couple minutes for the code to run and complete (you can check your position in the queue with ```qstat```.)
 
-Now when it has finished, check the output in hwGPU.o???
+Now when it has finished, check the output in **hwGPU.o???**
 Is it what we expect!? 
-You can have a look at the hwGPU.e??? file to see if any messages were sent to the error log. These can be warnings, or if somehitng has gone wrong (like if you make a typo and Artemis can't find the files you are expecting) then hopefully a useful message has appear in this log. 
-Finally, check out the hwGPU.o???_usage file for a detailed look at all the resources your code used.
+You can have a look at the **hwGPU.e???** file to see if any messages were sent to the error log. These can be warnings, or if somehitng has gone wrong (like if you make a typo and Artemis can't find the files you are expecting) then hopefully a useful message has appear in this log. 
+Finally, check out the **hwGPU.o???_usage** file for a detailed look at all the resources your code used.
 
 
 
