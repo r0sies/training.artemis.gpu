@@ -1,5 +1,15 @@
 ---
 title: "Matlab GPU example"
+teaching: 20
+exercises: 10
+questions:
+- "How can I use GPUs in my Matlab programs"
+objectives:
+- "Learn how to run a Matlab job requiring GPUs"
+keypoints:
+- "You can optimise your code for GPU in different ways"
+- "Matlab has inbuilt functionality to run on GPUs
+- "Submitting a Matlab job is otherwise the same as submitting any job on HPC"
 ---
 
 Matlab can interface with your GPU card in several ways. We will explore the different ways you can do this (with varying complexity). For a list of version compatability check [here](https://au.mathworks.com/help/distcomp/gpu-support-by-release.html).
