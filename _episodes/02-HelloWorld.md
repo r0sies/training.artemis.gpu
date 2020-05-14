@@ -36,7 +36,7 @@ int main()
     hello_world_kernel();
 }
 ~~~
-{:. bash}
+{:. output}
 
 Save it and compile your C code with:
 
@@ -64,7 +64,7 @@ int main()
     cudaDeviceReset();
 }
 ~~~
-{:. bash}
+{:. python}
 
 What are the key differences here?
 
