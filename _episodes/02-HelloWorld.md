@@ -23,7 +23,7 @@ source: Rmd
 Make a new text file called ```hello_world.c``` as follows:
 
 
-```
+~~~
 #include <stdio.h>
 
 void hello_world_kernel()
@@ -35,7 +35,9 @@ int main()
 {
     hello_world_kernel();
 }
-```
+~~~
+{:. bash}
+
 Save it and compile your C code with:
 
 ```gcc hello_world.c -o hello_cpu```
@@ -48,7 +50,7 @@ Hello World!
 
 Great, so it is running as expected on CPU, now lets do it on the GPU. Make a new text file called ```hello_world.cu```:
 
-```
+~~~
 #include <stdio.h>
 
 __global__ void hello_world_kernel()
@@ -61,7 +63,9 @@ int main()
     hello_world_kernel <<<1,8>>>();
     cudaDeviceReset();
 }
-```
+~~~
+{:. bash}
+
 What are the key differences here?
 
 Now compile your GPU code with the CUDA compiler, nvcc,
