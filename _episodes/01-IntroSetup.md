@@ -84,14 +84,19 @@ We can visualise the CPU and GPU as something like this:
   <figcaption> An informative way to compare CPU and GPU computing comparing speed and throughput.</figcaption>
 </figure><br>
 
+#### Some keywords
+
 A ***thread*** is like a single computational task or instruction or kernel that is run on the GPU (or CPU).
+
 A ***thread block*** is a group of threads in the same location on the GPU so they can communicate easily with each other.
+
 A ***grid*** is the collection of thread blocks.
 
 When executing your kernel (i.e. function), the typical CUDA command looks like this:
 
 ```
-YourKernel<<<NumberOfBlocks,NumberOfThreadsPerBlock>>>(...) //The numbers chosen here are dependent on the GPU hardware.
+//The numbers possible here are dependent on your GPU hardware.
+YourKernel<<<NumberOfBlocks,NumberOfThreadsPerBlock>>>(...) 
 ```
 
 <figure>
@@ -106,13 +111,15 @@ Use device query (or gpuQuerey in Matlab) to see some details about your GPU.
 </figure><br>
 
 
-Having proposed GPU (or CPU) compute time on grant applications can show you are conducting accelerated research! Get in touch with us for help estimating your resource usage, or for any assitance, [https://informatics.sydney.edu.au/](https://informatics.sydney.edu.au/)
+Having proposed GPU (or CPU) compute time on grant applications can show you are conducting accelerated research! Get in touch with us for help estimating your resource usage, or for any assitance, [https://informatics.sydney.edu.au/](https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html)
 
 
 ### How do you develop code for GPU computing?
 
 The most common langauges for developing code for GPUs are
-***CUDA***, ***OpenCL***, and ***OpenACC***. These are all low-level and require fairly strong programming capabilities. However, high-level languages like ***Python*** and ***Matlab*** and subsequent packages within them (keras, tensorflow, theano, etc), can make use of your GPU by essentially writing CUDA (or OpenCL) for you! We will see a few examples and you can decide what language best suits your use cases. We will be focusing on CUDA-capable cards (i.e NVIDIA). OpenCL works on the other most popular GPU card, AMD Radeons (Mac GPU of choice). Plus there has been a push from mobile markets to get more into the GPU space, so now companies like ARM and Intel (which also support OpenCL) are starting to have more of an impact on GPU computing. 
+***CUDA***, ***OpenCL***, and ***OpenACC***. These are all low-level and require fairly strong programming capabilities. However, high-level languages like ***Python*** and ***Matlab*** and subsequent packages within them (keras, tensorflow, theano, etc), can make use of your GPU by essentially writing CUDA (or OpenCL) for you! 
+
+We will see a few examples and you can decide what language best suits your use cases. We will be focusing on CUDA-capable cards (i.e NVIDIA). OpenCL works on the other most popular GPU card, AMD Radeons (Mac GPU of choice). Plus there has been a push from mobile markets to get more into the GPU space, so now companies like ARM and Intel (which also support OpenCL) are starting to have more of an impact on GPU computing. 
 
 
 {% include links.md %}
