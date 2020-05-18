@@ -1,6 +1,6 @@
 ---
 title: "Connecting to Artemis HPC"
-teaching: 20
+teaching: 10
 exercises: 10
 questions:
 - "What tools can you use to connect to Artemis?"
