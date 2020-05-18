@@ -60,7 +60,7 @@ Check out **GPU_array.png** for the results.
 The last example is essentially writing straight C++ CUDA code and compiling it with C-Mex (C-MatlabExecutable).  The code is precompiled for this example and the call to the function is made with the ```feval``` command. But for the adventurous it can be compiled as follows.
 
 If you have a CU file you want to execute on the GPU through Matlab, you must first compile it to create a PTX file. One way to do this is with the nvcc compiler in the NVIDIA CUDA Toolkit. In this example, the CU file is called ```pctdemo_processMandelbrotElement.cu```, you can create a compiled PTX file with the shell command:
-```
+```Shell
 nvcc -ptx pctdemo_processMandelbrotElement.cu
 ```
 Just like we did for the hello world example earlier. This generates the file named ```pctdemo_processMandelbrotElement.ptx```
@@ -69,23 +69,20 @@ Check out **GPU_CUDA.PNG** for the super-fast speed up.
 
 ## Matlab GPU on Artemis.
 
-To run this example on Artemis, first copy the ```gpu_demo_Mandelbrot.m``` Matlab script to Artemis. You can use whatever method you like to [transfer it to Artemis](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/212795438/Transferring+data+between+your+local+computer+and+HPC), but here is how to do it with ```scp```:
+To run this example on Artemis, you can copy your local ```gpu_demo_Mandelbrot.m``` Matlab script to Artemis. You can use whatever method you like to [transfer it to Artemis](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/212795438/Transferring+data+between+your+local+computer+and+HPC). Or you can use the copy already in your folder.
 
-```
-scp gpu_demo_Mandelbrot.m ict_hpctrain1@hpc.sydney.edu.au:/project/Training/nathan
-```
 
-Next connect to Artemis using your favourite method, navigate to where you copied the file, copy an old *.pbs script and get ready to make some changes to it
+Additionaly, update one of your PBS scripts or use ```nano``` (or your favourite text editor) to make any changes to the script ```runMatlab.pbs``` already prepared for you. i.e.
 
-```
-ssh -X ict_hpctrain1@hpc.sydney.edu.au
-cd /project/Training/nathan
-cp /project/Training/nathan/hello.pbs to runMatlab.pbs
+```Shell
 nano runMatlab.pbs
 ```
 
-Now update the PBS script we wrote before so it is appropriate for this example:
-```
+
+
+Will show you the contents of the script in the nano editor:
+
+```Shell
 #! /bin/bash
 
 #PBS -P Training
