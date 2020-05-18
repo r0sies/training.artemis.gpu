@@ -115,7 +115,7 @@ GPU_CUDA.png
 ```
 
 The ```matlab_output.log``` file contains what is normally displayed in the Matlab terminal, but we redirected it to this file instead. The ```k40_matlab.o/e?????``` files contain the Artemis output (probably empty because all of this ends up in the log file in this example), the error file, and the usage files. The ```*.png``` files are the images of the output. Copy them to your local machine if you want to look at the output, or if you have x-fowarding enabled you can look at them directly using:
-```
+```Shell
 module load imagemagick
 display CPU.png
 ```
