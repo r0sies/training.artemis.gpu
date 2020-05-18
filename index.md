@@ -22,5 +22,11 @@ Most topics covered here have extra detail in the [Artemis guide, get it here](h
 > **OWN LAPTOP REQUIRED**.
 {: .prereq}
 
+> ## Course survey!
+>
+> **_Please_** fill out our **[course survey](https://redcap.sydney.edu.au/surveys/?s=FJ33MYNCRR)** before you leave!
+>
+> Help us help you! :smiley:
+{: .testimonial}
 
 {% include links.md %}
