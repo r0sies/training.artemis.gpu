@@ -84,6 +84,15 @@ We can visualise the CPU and GPU as something like this:
   <figcaption> An informative way to compare CPU and GPU computing comparing speed and throughput.</figcaption>
 </figure><br>
 
+A ***thread*** is like a single computational task or instruction or kernel that is run on the GPU (or CPU).
+A ***thread block*** is a group of threads in the same location on the GPU so they can communicate easily with each other.
+A ***grid*** is the collection of thread blocks.
+
+When executing your kernel (i.e. function), the typical CUDA command looks like this:
+
+```
+YourKernel<<<NumberOfBlocks,NumberOfThreadsPerBlock>>>(...) //The numbers chosen here are dependent on the GPU hardware.
+```
 
 <figure>
   <img src="{{ page.root }}/fig/01_threads.png" style="margin:10px;height:400px"/>
