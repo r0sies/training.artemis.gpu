@@ -46,7 +46,7 @@ The compiling method is the same, but we need to make sure we load the required 
 module load cuda/8.0.44
 
 #Then compile as before
-nvcc hello_world.cu -o hell_gpu
+nvcc hello_world.cu -o hello_gpu
 ```
 
 Now, if you have tried to run it, you will find that you will get no output - that is because you are on a ***login node***, i.e. there is no GPU there. If you want to use a GPU you must run your code on a gpu node!
