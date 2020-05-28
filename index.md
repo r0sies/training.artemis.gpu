@@ -12,6 +12,9 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 **Acknoledgment ensures the continuation of our services**: e.g. *This research was supported by the University of Sydney’s, Core Research Facility, Sydney Informatics Hub training program.*
 
+**Recorded Lesson:** You can watch the recorded lesson from May 19, 2020, here:
+[https://cloudstor.aarnet.edu.au/plus/s/itBwYn0OrVDYJx9](https://cloudstor.aarnet.edu.au/plus/s/itBwYn0OrVDYJx9)
+
 Most topics covered here have extra detail in the [Artemis guide, get it here](https://sydneyuni.atlassian.net/wiki/spaces/RC/overview).
 
 > ## Prerequisites
