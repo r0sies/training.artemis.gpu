@@ -1,6 +1,7 @@
 # Artemis Training Series
 
-This is the overview page for the Artemis training course series. The individual lessons are listed below:
+This is the overview page for the Artemis training course series. View online here: https://sydney-informatics-hub.github.io/training.artemis/
+The individual lessons are listed below:
 
 | Lesson Repo    | Overview |
 | ------- | ---------- |
